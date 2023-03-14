@@ -1,0 +1,76 @@
+header{
+    top: 0;
+    position: relative;
+    max-width: 100%; 
+    margin-top: 115px;
+    margin-left: auto; 
+    bottom: 15px;
+    text-align: center; 
+}
+
+h1{
+    line-height: 70px;
+    font-weight: 500;
+    font-size: 60px;
+    font-style: normal;
+    margin-top: 0; 
+}
+
+.gra{
+    color: rgb(0, 80, 177);
+}
+
+header p{
+    max-width: 100%; 
+    font-size: 20px;
+    font-style: normal;
+    line-height: 21px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 0; 
+}
+
+header button{
+    background-color: #0263b9fe;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 0.4s ease 0s;
+}
+
+header button:hover{
+    box-shadow: 5px 5px 7px #333;  
+    background-color: black;
+    color: white;
+}
+
+.imagen1 {
+    float: none; 
+    display: block; 
+    margin: 0 auto; 
+    width: 50%; 
+    max-width: 100%; 
+    margin-top: 20px; 
+    border-radius: 3%;
+}
+
+.imagen1:hover{
+    box-shadow: 5px 5px 7px #333;
+}
+
+.titulo-tarjetas{
+    text-align: center;
+}
+
+.titulo-tarjetas h2{
+    color: #333333ad;
+}
+
+.titulo-tarjetas h1{
+    font-size: 50px;
+}

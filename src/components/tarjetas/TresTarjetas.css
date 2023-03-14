@@ -1,0 +1,18 @@
+.tres-tarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .tres-tarjetas {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .tres-tarjetas {
+      grid-template-columns: 1fr;
+    }
+  }
+  
